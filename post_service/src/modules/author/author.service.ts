@@ -13,20 +13,4 @@ export class AuthorService {
     });
     return author;
   }
-
-  findAll() {
-    return `This action returns all author`;
-  }
-
-  findOne(id: string) {
-    return `This action returns a #${id} author`;
-  }
-
-  update(id: string, updateAuthorDto: UpdateAuthorDto) {
-    return `This action updates a #${id} author`;
-  }
-
-  remove(id: string) {
-    return `This action removes a #${id} author`;
-  }
 }
